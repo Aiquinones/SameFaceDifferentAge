@@ -1,1 +1,1 @@
-facenet
+easyfacenet
