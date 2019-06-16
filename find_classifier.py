@@ -1,15 +1,9 @@
-from json import dump
-from os import makedirs
-from os.path import exists, isfile
-from statistics import mean
 from time import time
 
-from pybalu.performance_eval import performance
-from sklearn.neural_network import MLPClassifier
 from sklearn.model_selection import GridSearchCV
+from sklearn.neural_network import MLPClassifier
 
 from layers import ONE_LAYER, TWO_LAYER, TREE_LAYER
-
 
 # The data is load
 Xtest, Xtrain, ytest, ytrain = loadData()  # This one have to be changed

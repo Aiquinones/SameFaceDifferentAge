@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da978ade-87a9-4fdf-97ce-59229a119fb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/find_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_classifier.py" afterDir="false" />
-    </list>
+    <list default="true" id="da978ade-87a9-4fdf-97ce-59229a119fb9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +15,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/find_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="250">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -29,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/neural_network/multilayer_perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3187">
-              <caret line="888" column="37" selection-start-line="888" selection-start-column="32" selection-end-line="888" selection-end-column="37" />
+            <state relative-caret-position="127">
+              <caret line="800" column="18" selection-start-line="800" selection-start-column="4" selection-end-line="800" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -64,6 +62,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>early_stopping</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,16 +151,15 @@
       <updated>1560698327063</updated>
       <workItem from="1560698329048" duration="1044000" />
       <workItem from="1560700477879" duration="208000" />
-      <workItem from="1560700919626" duration="1863000" />
+      <workItem from="1560700919626" duration="2586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3115000" />
+    <option name="totallyTimeSpent" value="3838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25737053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -213,20 +215,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find_classifier.py">
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/neural_network/multilayer_perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="800" column="18" selection-start-line="800" selection-start-column="4" selection-end-line="800" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/neural_network/multilayer_perceptron.py">
+    <entry file="file://$PROJECT_DIR$/find_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3187">
-          <caret line="888" column="37" selection-start-line="888" selection-start-column="32" selection-end-line="888" selection-end-column="37" />
+        <state relative-caret-position="250">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
