@@ -1,65 +1,51 @@
 import random
 import numpy as np
-
-dataset = {}
-
-versions = ["A", "B"]
-people = [str(i) for i in range(300, 310)]
-feature_size = 2048
-
-for p in people:
-        for v in versions:
-                if random.random() < 0.1: # algunos son None
-                        dataset[p+v] = None
-                else:
-                        dataset[p+v] = np.array([random.random() for _ in range(feature_size)])
-print(dataset)
+import pickle
 
 def getXy(dic, training):
-	X_names = []
 	X = []
 	Y = []
-	for x in dataset:
-		numA = x[:-1]
-		abA = x[-1:]
+	for x in dic:
+		xp = x[:-4]
+		numA = xp[:-1]
+		abA = xp[-1:]
 		if abA == "A":
 			done1 = 0
 			done2 = 0
 			done = 0
 			equal = []
 			notequal = []
-			equalnames = ""
-			notequalnames = ""
-			for y in dataset:
-				numB = y[:-1]
-				abB = y[-1:]
+			for y in dic:
+				yp = y[:-4]
+				numB = yp[:-1]
+				abB = yp[-1:]
 				if abB == "B":
-					if not training and numA == numB and dataset[x] is not None and dataset[y] is not None:
-						X.append(dataset[x]+dataset[y])
+					if not training and numA == numB and dic[x] is not None and dic[y] is not None:
+						X.append(dic[x]+dic[y])
 						Y.append(1)
-						X_names.append(x+y)
-					elif not training and numA != numB and dataset[x] is not None and dataset[y] is not None:
-						X.append(dataset[x]+dataset[y])
+					elif not training and numA != numB and dic[x] is not None and dic[y] is not None:
+						X.append(dic[x]+dic[y])
 						Y.append(0)
-						X_names.append(x+y)
-					if training and numA == numB and dataset[x] is not None and dataset[y] is not None and not done1:
-						equalnames = x+y
-						equal = dataset[x]+dataset[y]
+					if training and numA == numB and dic[x] is not None and dic[y] is not None and not done1:
+						equal = dic[x]+dic[y]
 						done1 = 1
-					if training and numA != numB and not done2 and dataset[x] is not None and dataset[y] is not None:
-						notequalnames = x+y
-						notequal = dataset[x]+dataset[y]
+					if training and numA != numB and not done2 and dic[x] is not None and dic[y] is not None:
+						notequal = dic[x]+dic[y]
 						done2 = 1
 				if done1 and done2 and not done and training:
 					X.append(equal)
 					Y.append(1)
 					X.append(notequal)
 					Y.append(0)
-					X_names.append(equalnames)
-					X_names.append(notequalnames)
 					done = 1
 					break
-	return X, Y, X_names
+	return X, Y
 
-X_train, y_train, xnames_train = getXy(dataset,1)
-X_test, y_test, xnames_test = getXy(dataset,0)
+with open('training.p', 'rb') as f:
+	dataset_train = pickle.load(f)
+with open('testing.p', 'rb') as fp:
+	dataset_test = pickle.load(fp)
+
+# print(dataset_train)
+X_train, y_train = getXy(dataset_train,1)
+X_test, y_test= getXy(dataset_test,0)
