@@ -1,12 +1,16 @@
 from time import time
 
+from numpy import load
 from sklearn.model_selection import GridSearchCV
 from sklearn.neural_network import MLPClassifier as MLP
 
-from numpy import load
-
 # The data is load
-# Xtest, Xtrain, ytest, ytrain = # Here have to be put the data
+M = load("use_data.npy")
+
+Xtrain = M.item().get('X_train')
+Xtest = M.item().get('X_test')
+ytrain = M.item().get('y_train')
+ytest = M.item().get('y_test')
 
 # Is this nesesary?
 # ytrain = ytrain.ravel()
@@ -27,7 +31,6 @@ clf.fit(Xtrain, ytrain)
 nn_acc = clf.score(Xtest, ytest)
 
 print(f"NN: El accuracy encontrado fue {nn_acc * 100.0}%")
-
 
 elapsed_time = time() - start_time
 print("Time final: {}".format(elapsed_time))
