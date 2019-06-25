@@ -14,9 +14,8 @@ Xtest = M.item().get('X_test')
 ytrain = M.item().get('y_train')
 ytest = M.item().get('y_test')
 
-
-
 #%%
+"""
 from sklearn.metrics import confusion_matrix
 
 ypred = clf.predict(Xtest)
@@ -25,6 +24,7 @@ cm = confusion_matrix(ytest, ypred)
 
 print(f"FMR: {100*cm[0][1]/(cm[0][1] + cm[0][0])}%")
 print(f"FNMR: {100*cm[1][0]/(cm[1][0] + cm[1][1])}%")
+"""
 
 #%%
 
@@ -74,20 +74,4 @@ def get_d_prime(clf, Xtest, ytest):
 get_d_prime(None, Xtest, ytest)
     
 print("\n\n\n\n\n")
-
-#%%
-
-from sklearn.externals.joblib import load as sk_load
-
-clf = sk_load('archivo_grey.joblib')
-
-#%%
-proba = clf.predict_proba(Xtest[:3])
-pred = clf.predict(Xtest[:3])
-real = ytest[:3]
-
-print(proba)
-print(pred)
-print(real)
-
-#%%
+x
