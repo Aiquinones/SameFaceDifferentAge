@@ -1,6 +1,7 @@
 #%%
 from time import time
 from numpy import load
+from scipy.spatial.distance import cosine
 from sklearn.model_selection import GridSearchCV
 from sklearn.neural_network import MLPClassifier as MLP
 from sklearn.externals.joblib import dump
@@ -43,7 +44,7 @@ def get_d_prime(clf, Xtest, ytest):
         v1, v2 = pr[:512], pr[512:]
         v1 = v1/LA.norm(v1)
         v2 = v2/LA.norm(v2)
-        distance = v1 - v2
+        distance = cosine(v1, v2)
         distance = LA.norm(distance)
         
         if real == 0:
