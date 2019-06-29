@@ -24,7 +24,7 @@ testing_pickle_filename = 'testing_grey.p'
 
 #%%
 
-print("Procsesando testing...")
+print("Procesando testing...")
 testing_paths = [testing_path + "/" + path for path in os.listdir(testing_path) if path.split(".")[1] == "jpg"]
 removed_testing = []
 aligned_testing = facenet.align_face(testing_paths, removed_testing)
@@ -36,7 +36,7 @@ if len(removed_testing) == 0:
 else:
     print(f"Ciertas caras ({len(removed_testing)}) no pudieron ser definidas y fueron pobladas con un None.\nEl resto ({len(embs_testing)}/{len(testing_paths)}) fue procesado correctamente")
 
-print("Procsesando training...")
+print("Procesando training...")
 training_paths = [training_path + "/" + path for path in os.listdir(training_path) if path.split(".")[1] == "jpg"]
 removed_training = []
 aligned_training = facenet.align_face(training_paths, removed_training)

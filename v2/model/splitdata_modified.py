@@ -1,13 +1,17 @@
 import pickle
 from numpy import save, concatenate
 import random
+from numpy import linalg as LA
+import numpy as np
+import tqdm
 
 def getXy(dic, fiftyfifty=True):
     X = []
     Y = []
     
     keys = [key for key in dic]
-        
+    
+    progress_bar = tqdm.tqdm(total=len(dic))
     for x in dic:
         path = x[:-4]
         number = path[:-1]
@@ -19,10 +23,16 @@ def getXy(dic, fiftyfifty=True):
             continue 
         
         other_coding = "A" if AB_coding == "B" else "B"
-        y = number + other_coding + ".jpg"
+        y = number + other_coding + ".png"
+        
+        vector_x = dic[x]
+        vector_x = vector_x / LA.norm(vector_x)
         
         if dic[y] is not None:
-            equal = concatenate((dic[x], dic[y]))
+            vector_y = dic[y]
+            vector_y = vector_y / LA.norm(vector_y)
+            
+            equal = concatenate((vector_x, vector_y))
             X.append(equal)
             Y.append(1)
         
@@ -32,7 +42,10 @@ def getXy(dic, fiftyfifty=True):
                 not_y = random.choice(keys)
             
             if dic[not_y] is not None:
-                not_equal = concatenate((dic[x], dic[not_y]))
+                vector_y = dic[not_y]
+                vector_y = vector_y / LA.norm(vector_y)
+                
+                not_equal = concatenate((vector_x, vector_y))
                 X.append(not_equal)
                 Y.append(0)
                 
@@ -45,23 +58,28 @@ def getXy(dic, fiftyfifty=True):
                     continue 
                 if not_y == y:
                     continue
-                not_equal = concatenate((dic[x], dic[not_y]))
+               
+                vector_y = dic[not_y]
+                vector_y = vector_y / LA.norm(vector_y)
+                
+                not_equal = concatenate((vector_x, vector_y)) 
                 X.append(not_equal)
                 Y.append(0)
-            
+                
+        progress_bar.update()
+    
+    progress_bar.close()
     return X, Y
 
-
-with open('training_grey.p', 'rb') as f:
+with open('dataset/pickles/KerasFaceNet/training.p', 'rb') as f:
     dataset_train = pickle.load(f)
-with open('testing_grey.p', 'rb') as fp:
+with open('dataset/pickles/KerasFaceNet/testing.p', 'rb') as fp:
     dataset_test = pickle.load(fp)
 
-# print(dataset_train)
 X_train, y_train = getXy(dataset_train)
 X_test, y_test = getXy(dataset_test, fiftyfifty=False)
 
-save("use_data_not_grey.npy", {
+save("dataset/npys/KerasFaceNet/main.npy", {
     "X_train": X_train,
     "y_train": y_train,
     "X_test": X_test,

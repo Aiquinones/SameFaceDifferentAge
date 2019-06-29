@@ -8,7 +8,7 @@ from sklearn.externals.joblib import dump
 
 #%%
 # The data is load
-M = load("use_data_not_grey.npy")
+M = load("use_data_normalized.npy")
 
 Xtrain = M.item().get('X_train')
 Xtest = M.item().get('X_test')
@@ -58,8 +58,8 @@ def get_d_prime(clf, Xtest, ytest):
     std_impostors = np.std(impostors)
     std_genuines = np.std(genuines)
     
-    print(f"std genuinos: {std_genuines**2}")
-    print(f"std impostores: {std_impostors**2}")
+    print(f"std genuinos: {std_genuines}")
+    print(f"std impostores: {std_impostors}")
     
     mean_impostors = np.mean(impostors)
     mean_genuines = np.mean(genuines)
@@ -67,7 +67,7 @@ def get_d_prime(clf, Xtest, ytest):
     print(f"mean genuinos: {mean_genuines}")
     print(f"mean impostores: {mean_impostors}")
     
-    d_prime = abs(mean_genuines-mean_impostors)/(sqrt(0.5*(std_impostors**2+std_genuines**2)))
+    d_prime = abs(mean_genuines-mean_impostors)/(sqrt(0.5*(std_impostors+std_genuines)))
     
     print(d_prime)
     return d_prime
@@ -75,4 +75,3 @@ def get_d_prime(clf, Xtest, ytest):
 get_d_prime(None, Xtest, ytest)
     
 print("\n\n\n\n\n")
-x
