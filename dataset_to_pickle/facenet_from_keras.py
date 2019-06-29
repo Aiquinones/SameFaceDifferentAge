@@ -29,22 +29,28 @@ def save_imgs(paths, embeddings, destination):
     d = {path: embedding for path, embedding in zip(paths, embeddings)}
     with open(destination, 'wb') as fp:
         pickle.dump(d, fp, protocol=pickle.HIGHEST_PROTOCOL)
-    
-#%%
-embedder = FaceNet()
-# images is a list of images, each as an
-# np.ndarray of shape (H, W, 3).
 
-for paths, destination in [
-        (training_paths, training_destination),
-        (testing_paths,  testing_destination)]:
 
-    print("Getting images...")
-    images = get_images_from_filepaths(paths)
-    print("Getting embeddings...")
-    try:
-        embeddings = embedder.embeddings(images, verbose=1)
-    except:
-        embeddings = embedder.embeddings(images)
-    print("Saving embeddings...")
-    save_imgs(paths, embeddings, destination)
+def create_pickle(training_path, testing_path, training_destination, testing_destination): 
+    embedder = FaceNet()
+    # images is a list of images, each as an
+    # np.ndarray of shape (H, W, 3).
+
+    for paths, destination in [
+            (training_paths, training_destination),
+            (testing_paths,  testing_destination)]:
+            
+
+        print("Getting images...")
+        images = get_images_from_filepaths(paths)
+        print("Getting embeddings...")
+        try:
+            embeddings = embedder.embeddings(images, verbose=1)
+        except:
+            embeddings = embedder.embeddings(images)
+
+        print("Saving embeddings...")
+        save_imgs(paths, embeddings, destination)
+
+if __name__ == "__main__":
+    create_pickle(training_path, testing_path, training_destination, testing_destination)

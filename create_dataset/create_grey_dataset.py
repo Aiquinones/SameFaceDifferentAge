@@ -15,15 +15,17 @@ def get_images_from_filepaths(filepaths):
         
     return imgs
 
-def crop_faces(paths, removed=[], image_size=160):
+def crop_and_grey_faces(paths, removed=[], image_size=160):
     # Images already crop, resize
     imgs = []
     pbar = tqdm.tqdm(total=len(paths))
     for filepath in paths:
         pbar.update()
-        cropped = cv2.imread(os.path.expanduser(filepath))
-        cropped = cv2.resize(cropped, (image_size, image_size))
-        imgs.append(cropped)
+        cropped = cv2.imread(os.path.expanduser(filepath)) # Read
+        cropped = cv2.resize(cropped, (image_size, image_size)) # Resize
+        gray = cv2.cvtColor(cropped, cv2.COLOR_BGR2GRAY) # Gray (one channel)
+        gray = cv2.cvtColor(gray,cv2.COLOR_GRAY2RGB) # Gray (three channels)
+        imgs.append(gray)
     pbar.close()
     return imgs, paths
         
@@ -31,8 +33,8 @@ def crop_faces(paths, removed=[], image_size=160):
 training_path = "dataset/training"
 testing_path = "dataset/testing"
 
-training_path_destination = "dataset/cropped/training"
-testing_path_destination = "dataset/cropped/testing"
+training_path_destination = "dataset/grey/training"
+testing_path_destination = "dataset/grey/testing"
 
 #%%
 def save_images(images, folder, filenames, ignored=[]):
@@ -53,7 +55,7 @@ def save_images(images, folder, filenames, ignored=[]):
 print("Procesando testing...")
 testing_paths = [testing_path + "/" + path for path in os.listdir(testing_path) if path.split(".")[1] == "jpg"]
 removed_testing = []
-cropped_testing, cropped_paths_testing = crop_faces(testing_paths, removed_testing)
+cropped_testing, cropped_paths_testing = crop_and_grey_faces(testing_paths, removed_testing)
 
 print(removed_testing)
 
@@ -71,7 +73,7 @@ else:
 print("Procesando training...")
 training_paths = [training_path + "/" + path for path in os.listdir(training_path) if path.split(".")[1] == "jpg"]
 removed_training = []
-cropped_training, cropped_paths_training = crop_faces(training_paths, removed_training)
+cropped_training, cropped_paths_training = crop_and_grey_faces(training_paths, removed_training)
 
 print(removed_training)
 

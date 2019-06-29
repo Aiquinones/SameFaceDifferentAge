@@ -5,7 +5,11 @@ from numpy import linalg as LA
 import numpy as np
 import tqdm
 
-def getXy(dic, fiftyfifty=True):
+training_pickle = 'dataset/pickles/KerasFaceNet/grey/training.p'
+testing_pickle = 'dataset/pickles/KerasFaceNet/grey/testing.p'
+destination = "dataset/npys/KerasFaceNet/grey.npy"
+
+def getXy(dic, file_type="png", fiftyfifty=True):
     X = []
     Y = []
     
@@ -23,7 +27,7 @@ def getXy(dic, fiftyfifty=True):
             continue 
         
         other_coding = "A" if AB_coding == "B" else "B"
-        y = number + other_coding + ".png"
+        y = number + other_coding + "." + file_type
         
         vector_x = dic[x]
         vector_x = vector_x / LA.norm(vector_x)
@@ -71,17 +75,22 @@ def getXy(dic, fiftyfifty=True):
     progress_bar.close()
     return X, Y
 
-with open('dataset/pickles/KerasFaceNet/training.p', 'rb') as f:
-    dataset_train = pickle.load(f)
-with open('dataset/pickles/KerasFaceNet/testing.p', 'rb') as fp:
-    dataset_test = pickle.load(fp)
+def split_data(training_pickle, testing_pickle, destination, fyle_type="png"):
+    
+    with open(training_pickle, 'rb') as f:
+        dataset_train = pickle.load(f)
+    with open(testing_pickle, 'rb') as fp:
+        dataset_test = pickle.load(fp)
 
-X_train, y_train = getXy(dataset_train)
-X_test, y_test = getXy(dataset_test, fiftyfifty=False)
+    X_train, y_train = getXy(dataset_train)
+    X_test, y_test = getXy(dataset_test, fiftyfifty=False)
 
-save("dataset/npys/KerasFaceNet/main.npy", {
-    "X_train": X_train,
-    "y_train": y_train,
-    "X_test": X_test,
-    "y_test": y_test,
-})
+    save(destination, {
+        "X_train": X_train,
+        "y_train": y_train,
+        "X_test": X_test,
+        "y_test": y_test,
+    })
+
+if __name__ == "__main__":
+    split_data(training_pickle, testing_pickle, destination)
