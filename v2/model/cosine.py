@@ -9,11 +9,14 @@ import numpy as np
 from math import sqrt
 from numpy import linalg as LA
 from tqdm import tqdm
+from scipy.spatial.distance import cosine
 
 #%%
 
 graphs_folder = "graphs"
-dataset_path = "dataset/npys/KerasFaceNet/main.npy"
+dataset = "filtered"
+mode = "cosine"
+dataset_path = f"dataset/npys/KerasFaceNet/{dataset}.npy"
 
 # The data is load
 M = load(dataset_path)
@@ -24,7 +27,7 @@ ytrain = M.item().get('y_train')
 ytest = M.item().get('y_test')
 
 #%%
-def graph_impostors_and_genuines(impostors, genuines, d_prime, folder, mode="eucledian", style='seaborn-deep'):
+def graph_impostors_and_genuines(impostors, genuines, d_prime, folder, mode="eucledian", dataset="" ,style='seaborn-deep'):
     plt.style.use(style) 
     
     ratio = len(impostors)/len(genuines)
@@ -38,7 +41,7 @@ def graph_impostors_and_genuines(impostors, genuines, d_prime, folder, mode="euc
     plt.hist([impostors, genuines_graph], bins, label=['Impostores', 'Genuinos'])
     plt.legend(loc='upper right')
     
-    filename = f"{mode}_{'%.3f'%(d_prime)}.png"
+    filename = f"{mode}_{dataset}_{'%.3f'%(d_prime)}.png"
     
     plt.savefig(f"{folder}/{filename}")
 
@@ -66,7 +69,7 @@ def get_d_prime(clf, Xtest, ytest):
         v1, v2 = pr[:512], pr[512:]
         v1 = v1/LA.norm(v1)
         v2 = v2/LA.norm(v2)
-        distance = v1 - v2
+        distance = cosine(v1, v2)
         distance = LA.norm(distance)
         
         if real == 0:
@@ -100,4 +103,4 @@ d_prime, impostors, genuines = get_d_prime(None, Xtest, ytest)
 print(d_prime)
 
 #%%
-graph_impostors_and_genuines(impostors, genuines, d_prime, graphs_folder)
+graph_impostors_and_genuines(impostors, genuines, d_prime, graphs_folder, mode=mode, dataset=dataset)

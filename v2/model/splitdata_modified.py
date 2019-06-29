@@ -5,9 +5,9 @@ from numpy import linalg as LA
 import numpy as np
 import tqdm
 
-training_pickle = 'dataset/pickles/KerasFaceNet/grey/training.p'
-testing_pickle = 'dataset/pickles/KerasFaceNet/grey/testing.p'
-destination = "dataset/npys/KerasFaceNet/grey.npy"
+training_pickle = 'dataset/pickles/KerasFaceNet/filtered/training.p'
+testing_pickle = 'dataset/pickles/KerasFaceNet/filtered/testing.p'
+destination = "dataset/npys/KerasFaceNet/filtered.npy"
 
 def getXy(dic, file_type="png", fiftyfifty=True):
     X = []
