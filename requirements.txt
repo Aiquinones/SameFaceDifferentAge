@@ -1,3 +1,8 @@
 easyfacenet
 keras
 keras_facenet
+cv2
+numpy
+tqdm
+PIL
+scipy

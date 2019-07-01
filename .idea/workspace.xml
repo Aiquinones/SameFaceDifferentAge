@@ -2,8 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da978ade-87a9-4fdf-97ce-59229a119fb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_genuine/1A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_genuine/1B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_genuine/2A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_genuine/2B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_genuine/3A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_genuine/3B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_impostor/1A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_impostor/1B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_impostor/2A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_impostor/2B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_impostor/3A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/right_impostor/3B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_genuine/1A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_genuine/1B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_genuine/2A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_genuine/2B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_genuine/3A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_genuine/3B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_impostor/1A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_impostor/1B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_impostor/2A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_impostor/2B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_impostor/3A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/wrong_impostor/3B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/find_for_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distance.py" beforeDir="false" afterPath="$PROJECT_DIR$/distance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_dataset/create_filtered_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_dataset/create_filtered_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/cosine_filtered_1.003.png" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/cosine_filtered_1.003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/model/cosine.py" beforeDir="false" afterPath="$PROJECT_DIR$/v2/model/cosine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/model/facenet_from_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/v2/model/facenet_from_keras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/model/splitdata_modified.py" beforeDir="false" afterPath="$PROJECT_DIR$/v2/model/splitdata_modified.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,48 +47,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_facenet_features.py">
+        <entry file="file://$PROJECT_DIR$/find_for_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            <state relative-caret-position="271">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding>
-                <element signature="e#4#42#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/process.py">
+        <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="108">
+              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/distance.py">
+        <entry file="file://$PROJECT_DIR$/v2/model/facenet_from_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="74" column="23" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="23" />
+            <state relative-caret-position="126">
+              <caret line="36" column="115" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="115" />
               <folding>
-                <element signature="e#4#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.6/dist-packages/easyfacenet/simple/facenet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#4#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,14 +93,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>early_stopping</find>
-      <find>Validation score did</find>
-      <find>Iteration 200,</find>
-      <find>Validation score did not improve</find>
-      <find>Validation score did not improve more than</find>
-      <find>Iteration 1,</find>
-      <find>distance</find>
+      <find>__</find>
+      <find>tqdm</find>
+      <find>filtered.npy</find>
+      <find>filtered/training.p</find>
+      <find>training_path</find>
+      <find>name</find>
+      <find>filter_faces</find>
+      <find>testing_path_de</find>
+      <find>graph_impostors_and_genuines</find>
+      <find>save_imgs</find>
+      <find>get_images_from_filepaths</find>
+      <find>dataset/filtered/testing</find>
+      <find>KerasFaceNet</find>
+      <find>verv</find>
+      <find>testing_path_destination</find>
+      <find>path</find>
+      <find>cropped_testing</find>
+      <find>images</find>
+      <find>filepath</find>
+      <find>removed_testing</find>
+      <find>Wrong g</find>
+      <find>folder</find>
+      <find>testing_path</find>
+      <find>removed</find>
+      <find>091700A</find>
+      <find>094788A</find>
+      <find>png</find>
+      <find>Rigth impostor</find>
+      <find>Wrong genuine</find>
+      <find>Rigth genuine</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>jpg</replace>
+      <replace>path</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,6 +143,17 @@
         <option value="$PROJECT_DIR$/process.py" />
         <option value="$PROJECT_DIR$/distance.py" />
         <option value="$PROJECT_DIR$/get_facenet_features.py" />
+        <option value="$PROJECT_DIR$/dataset_to_pickle/get_facenet_features_greyscale.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/v2/model/splitdata_modified.py" />
+        <option value="$PROJECT_DIR$/v2/model/cosine.py" />
+        <option value="$PROJECT_DIR$/use.py" />
+        <option value="$PROJECT_DIR$/demo/demo_.py" />
+        <option value="$PROJECT_DIR$/demo/demo.py" />
+        <option value="$PROJECT_DIR$/v2/model/facenet_from_keras.py" />
+        <option value="$PROJECT_DIR$/create_dataset/create_filtered_dataset.py" />
+        <option value="$PROJECT_DIR$/find_for_demo.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
       </list>
     </option>
   </component>
@@ -116,6 +176,22 @@
               <item name="SameFaceDifferentAge" type="b2602c69:ProjectViewProjectNode" />
               <item name="SameFaceDifferentAge" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SameFaceDifferentAge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SameFaceDifferentAge" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SameFaceDifferentAge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SameFaceDifferentAge" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SameFaceDifferentAge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SameFaceDifferentAge" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,7 +201,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/right genuine" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -134,9 +210,16 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo/right genuine" />
+      <recent name="$PROJECT_DIR$/demo/wrong_genuine" />
+      <recent name="$PROJECT_DIR$/demo/right_impostor" />
+      <recent name="$PROJECT_DIR$/demo/wrong_impostor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dataset" />
+      <recent name="$PROJECT_DIR$/demo" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dataset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,8 +234,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_facenet_features">
-    <configuration name="distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="cosine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SameFaceDifferentAge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,12 +243,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v2/model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/distance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v2/model/cosine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +257,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="create_filtered_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SameFaceDifferentAge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,12 +265,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/create_dataset" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_dataset/create_filtered_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_facenet_features" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SameFaceDifferentAge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,7 +292,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_facenet_features.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +301,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_facenet_features_greyscale" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="facenet_from_keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SameFaceDifferentAge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,12 +309,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v2/model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_facenet_features_greyscale.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v2/model/facenet_from_keras.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="use" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SameFaceDifferentAge" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +336,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_for_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get_facenet_features" />
-        <item itemvalue="Python.get_facenet_features_greyscale" />
-        <item itemvalue="Python.distance" />
-        <item itemvalue="Python.process" />
-        <item itemvalue="Python.find_classifier" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.use" />
+        <item itemvalue="Python.facenet_from_keras" />
+        <item itemvalue="Python.cosine" />
+        <item itemvalue="Python.create_filtered_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -292,18 +375,20 @@
       <workItem from="1561561965452" duration="7391000" />
       <workItem from="1561575558237" duration="9815000" />
       <workItem from="1561594164879" duration="1273000" />
+      <workItem from="1561914662908" duration="1051000" />
+      <workItem from="1561917287545" duration="21326000" />
+      <workItem from="1561939041993" duration="513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38690000" />
+    <option name="totallyTimeSpent" value="78295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14023905" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.14980079" />
+      <window_info id="Structure" order="1" sideWeight="0.50248754" side_tool="true" weight="0.14741036" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -313,15 +398,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884902" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.29596412" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2600897" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884902" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32988048" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.35219124" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -351,151 +436,74 @@
           <line>31</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/find_classifier.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SameFaceDifferentAge$get_facenet_features.coverage" NAME="get_facenet_features Coverage Results" MODIFIED="1561588846537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SameFaceDifferentAge$get_facenet_features.coverage" NAME="get_facenet_features Coverage Results" MODIFIED="1561863541683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SameFaceDifferentAge$use.coverage" NAME="use Coverage Results" MODIFIED="1561935707360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SameFaceDifferentAge$distance.coverage" NAME="distance Coverage Results" MODIFIED="1561566411839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SameFaceDifferentAge$cosine.coverage" NAME="cosine Coverage Results" MODIFIED="1561907157916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v2/model" />
     <SUITE FILE_PATH="coverage/SameFaceDifferentAge$find_classifier.coverage" NAME="find_classifier Coverage Results" MODIFIED="1560783665060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SameFaceDifferentAge$process.coverage" NAME="process Coverage Results" MODIFIED="1560809452149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SameFaceDifferentAge$get_facenet_features_greyscale.coverage" NAME="get_facenet_features_greyscale Coverage Results" MODIFIED="1561579899969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SameFaceDifferentAge$create_filtered_dataset.coverage" NAME="create_filtered_dataset Coverage Results" MODIFIED="1561867601760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/create_dataset" />
+    <SUITE FILE_PATH="coverage/SameFaceDifferentAge$facenet_from_keras.coverage" NAME="facenet_from_keras Coverage Results" MODIFIED="1561910133621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v2/model" />
+    <SUITE FILE_PATH="coverage/SameFaceDifferentAge$demo.coverage" NAME="demo Coverage Results" MODIFIED="1561939619961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/get_facenet_features.py" />
+    <entry file="file://$PROJECT_DIR$/create_dataset/create_grey_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="228">
+          <caret line="39" column="10" selection-start-line="37" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/concurrent/futures/_base.py">
+    <entry file="file://$PROJECT_DIR$/dataset_to_pickle/get_facenet_features_greyscale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="383" selection-start-line="383" selection-end-line="383" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/neural_network/multilayer_perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="890" column="68" lean-forward="true" selection-start-line="890" selection-start-column="56" selection-end-line="890" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/model_selection/_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="616" column="8" selection-start-line="616" selection-start-column="8" selection-end-line="616" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1831" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/pybalu/feature_selection/clean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/sklearn/externals/joblib/numpy_pickle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3275">
-          <caret line="363" column="4" selection-start-line="363" selection-start-column="4" selection-end-line="363" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/pickle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="1342" selection-start-line="1342" selection-end-line="1342" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitdata_modified.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="1111" column="27" selection-start-line="1111" selection-start-column="27" selection-end-line="1111" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_facenet_features_greyscale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="89">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#5#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.6/dist-packages/easyfacenet/simple/facenet.py">
+    <entry file="file://$PROJECT_DIR$/pickle_to_npy/splitdata_modified.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        <state>
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/distance.py">
+    <entry file="file://$PROJECT_DIR$/v2/model/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="74" column="23" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="23" />
+        <state relative-caret-position="-157">
           <folding>
-            <element signature="e#4#25#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_facenet_features.py">
+    <entry file="file://$PROJECT_DIR$/dataset_to_pickle/facenet_from_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="e#4#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="1111" column="27" selection-start-line="1111" selection-start-column="27" selection-end-line="1111" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -505,6 +513,223 @@
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#4#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1171">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1247971763/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="9463" column="21" selection-start-line="9463" selection-start-column="16" selection-end-line="9463" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/filtered/testing/036995B.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/eucledian_filtered_0.947.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/cosine_use_0.000.png" />
+    <entry file="file://$PROJECT_DIR$/graphs/eucledian_0.739.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_dataset/create_cropped_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/model/cosine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+          <folding>
+            <element signature="e#4#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/numpy/core/overrides.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="293" selection-start-line="293" selection-end-line="293" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/filtered/training/000961A.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/filtered/training/001461B.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/numpy/lib/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="575" selection-start-line="575" selection-end-line="575" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="590" selection-start-line="590" selection-end-line="590" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor_filtered/1B.png" />
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/keras_facenet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor_filtered/1A.png" />
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="2633" selection-start-line="2633" selection-end-line="2633" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_dataset/create_filtered_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="117" column="43" selection-start-line="117" selection-start-column="36" selection-end-line="117" selection-end-column="43" />
+          <folding>
+            <element signature="e#5#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor_filtered/3B.png" />
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor_filtered/3A.png" />
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/096454A.jpg" />
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/084468B.jpg" />
+    <entry file="file://$PROJECT_DIR$/v2/model/splitdata_modified.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="2436" selection-start-line="2436" selection-end-line="2436" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphs/cosine_filtered_1.003.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/2A.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/2B.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/3A.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/3B.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/1B.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wrong_impostor/1A.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo pairs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="1537" column="51" lean-forward="true" selection-start-line="1537" selection-start-column="51" selection-end-line="1537" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/model/facenet_from_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="36" column="115" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="115" />
+          <folding>
+            <element signature="e#4#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_for_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/right_genuine_filtered/2A.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/right_genuine_filtered/1B.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/right_genuine_filtered/1A.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

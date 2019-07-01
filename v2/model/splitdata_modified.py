@@ -5,10 +5,7 @@ from numpy import linalg as LA
 import numpy as np
 import tqdm
 
-training_pickle = 'dataset/pickles/KerasFaceNet/filtered/training.p'
-testing_pickle = 'dataset/pickles/KerasFaceNet/filtered/testing.p'
-destination = "dataset/npys/KerasFaceNet/filtered.npy"
-
+#040888A
 def getXy(dic, file_type="png", fiftyfifty=True):
     X = []
     Y = []
@@ -75,12 +72,15 @@ def getXy(dic, file_type="png", fiftyfifty=True):
     progress_bar.close()
     return X, Y
 
-def split_data(training_pickle, testing_pickle, destination, fyle_type="png"):
+
+def split_data(training_pickle, testing_pickle, destination):
     
     with open(training_pickle, 'rb') as f:
         dataset_train = pickle.load(f)
     with open(testing_pickle, 'rb') as fp:
         dataset_test = pickle.load(fp)
+
+    print(dataset_train)
 
     X_train, y_train = getXy(dataset_train)
     X_test, y_test = getXy(dataset_test, fiftyfifty=False)
@@ -91,6 +91,11 @@ def split_data(training_pickle, testing_pickle, destination, fyle_type="png"):
         "X_test": X_test,
         "y_test": y_test,
     })
+
+
+training_pickle = 'dataset/pickles/KerasFaceNet/filtered/training.p'
+testing_pickle = 'dataset/pickles/KerasFaceNet/filtered/testing.p'
+destination = "dataset/npys/KerasFaceNet/filtered.npy"
 
 if __name__ == "__main__":
     split_data(training_pickle, testing_pickle, destination)
