@@ -1,3 +1,7 @@
 dataset/
 use_data.npy
 use_data_not_grey.npy
+demo/right_genuine_filtered/
+demo/right_impostor_filtered/
+demo/wrong_genuine_filtered/
+demo/wrong_impostor_filtered/
